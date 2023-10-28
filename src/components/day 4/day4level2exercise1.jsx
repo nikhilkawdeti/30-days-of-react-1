@@ -1,5 +1,4 @@
 import React from "react";
-import tailwind from '../../index.css'
 import htmlLogo from "../../assets/html-logo.jpg";
 import cssLogo from "../../assets/css-logo.png";
 import jsLogo from "../../assets/js-logo.png";
@@ -14,16 +13,16 @@ export function Container() {
           style={{ listStyle: "none" }}
         >
           <li className="">
-            <img src={htmlLogo} alt="" srcset="" width={100} height={100} />
+            <img src={htmlLogo} alt="" width={100} height={100} />
           </li>
           <li className="">
-            <img src={cssLogo} alt="" srcset="" width={100} height={100} />
+            <img src={cssLogo} alt="" width={100} height={100} />
           </li>
           <li className="">
-            <img src={jsLogo} alt="" srcset="" width={100} height={100} />
+            <img src={jsLogo} alt="" width={100} height={100} />
           </li>
           <li className="">
-            <img src={reactLogo} alt="" srcset="" width={100} height={100} />
+            <img src={reactLogo} alt="" width={100} height={100} />
           </li>
         </ul>
       </div>

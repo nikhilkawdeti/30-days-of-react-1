@@ -592,14 +592,15 @@ video {
   flex-direction: row;
 }
 
-.border {
-  border-width: 1px;
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
-.border-solid {
-  border-style: solid;
+.font-bold {
+  font-weight: 700;
 }
 
-.p-2 {
-  padding: 0.5rem;
+.underline {
+  text-decoration-line: underline;
 }
