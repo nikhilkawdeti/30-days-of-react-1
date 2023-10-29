@@ -1,14 +1,15 @@
 // import Main from './components/day 4/day4components';
+import "./index.css";
+import Main from "./components/day 4/day4components";
 import D4l2ex1 from "./components/day 4/day4level2exercise1";
-import {styles} from './index.css';
+import D4l2ex3 from "./components/day 4/day4level2exercise3";
 
 function App() {
   return (
     <div className="App">
-      {/* <Main /> */}
+      <Main />
       <D4l2ex1 />
-
-      <h1 className="text-8xl font-bold underline">Hello world!</h1>
+      <D4l2ex3 />
     </div>
   );
 }

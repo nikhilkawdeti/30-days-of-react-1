@@ -32,7 +32,7 @@ const TechList = () => {
 const Footer = () => (
   <footer>
     <div className="footer-wrapper">
-      <p>Copyright 2020</p>
+      <p>Copyright 2020</p> 
     </div>
   </footer>
 );
